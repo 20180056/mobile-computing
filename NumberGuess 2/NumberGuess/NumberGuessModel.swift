@@ -13,7 +13,12 @@ class NumberGuessModel{
                 if guess >= 1 && guess <= 99 {
                     isValid = true
             }
-        }
+        
+       
+    }
         return isValid
     }
-}
+    func getImage()-> String
+    
+    
+        }
