@@ -7,66 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7603E9982746725B00172673 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7603E9972746725B00172673 /* AppDelegate.swift */; };
-		7603E99A2746725B00172673 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7603E9992746725B00172673 /* SceneDelegate.swift */; };
-		7603E99C2746725B00172673 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7603E99B2746725B00172673 /* ViewController.swift */; };
-		7603E99F2746725B00172673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7603E99D2746725B00172673 /* Main.storyboard */; };
-		7603E9A12746725C00172673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7603E9A02746725C00172673 /* Assets.xcassets */; };
-		7603E9A42746725C00172673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7603E9A22746725C00172673 /* LaunchScreen.storyboard */; };
-		7603E9AF2746725D00172673 /* NumberguessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7603E9AE2746725D00172673 /* NumberguessTests.swift */; };
-		7603E9B92746725D00172673 /* NumberguessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7603E9B82746725D00172673 /* NumberguessUITests.swift */; };
-		7603E9BB2746725D00172673 /* NumberguessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7603E9BA2746725D00172673 /* NumberguessUITestsLaunchTests.swift */; };
+		7603E9E427467D5D00172673 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7603E9E327467D5D00172673 /* AppDelegate.swift */; };
+		7603E9E627467D5D00172673 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7603E9E527467D5D00172673 /* SceneDelegate.swift */; };
+		7603E9E827467D5D00172673 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7603E9E727467D5D00172673 /* ViewController.swift */; };
+		7603E9ED27467D5E00172673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7603E9EC27467D5E00172673 /* Assets.xcassets */; };
+		7603E9F027467D5E00172673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7603E9EE27467D5E00172673 /* LaunchScreen.storyboard */; };
+		7603E9FB27467D5E00172673 /* NumberGuessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7603E9FA27467D5E00172673 /* NumberGuessTests.swift */; };
+		7603EA0527467D5E00172673 /* NumberGuessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7603EA0427467D5E00172673 /* NumberGuessUITests.swift */; };
+		7603EA0727467D5E00172673 /* NumberGuessUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7603EA0627467D5E00172673 /* NumberGuessUITestsLaunchTests.swift */; };
+		7603EA1427467D9900172673 /* NumberGuessModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7603EA1327467D9900172673 /* NumberGuessModel.swift */; };
+		7603EA1727467DB300172673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7603EA1527467DB300172673 /* Main.storyboard */; };
+		7603EA1927467DE800172673 /* normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 7603EA1827467DE800172673 /* normal.png */; };
+		7603EA1B27467DEC00172673 /* bad.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7603EA1A27467DEC00172673 /* bad.jpeg */; };
+		7603EA1D27467DFA00172673 /* sad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7603EA1C27467DF900172673 /* sad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7603E9AB2746725D00172673 /* PBXContainerItemProxy */ = {
+		7603E9F727467D5E00172673 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7603E98C2746725B00172673 /* Project object */;
+			containerPortal = 7603E9D827467D5D00172673 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7603E9932746725B00172673;
-			remoteInfo = Numberguess;
+			remoteGlobalIDString = 7603E9DF27467D5D00172673;
+			remoteInfo = NumberGuess;
 		};
-		7603E9B52746725D00172673 /* PBXContainerItemProxy */ = {
+		7603EA0127467D5E00172673 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7603E98C2746725B00172673 /* Project object */;
+			containerPortal = 7603E9D827467D5D00172673 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7603E9932746725B00172673;
-			remoteInfo = Numberguess;
+			remoteGlobalIDString = 7603E9DF27467D5D00172673;
+			remoteInfo = NumberGuess;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7603E9942746725B00172673 /* Numberguess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Numberguess.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7603E9972746725B00172673 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7603E9992746725B00172673 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7603E99B2746725B00172673 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7603E99E2746725B00172673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7603E9A02746725C00172673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7603E9A32746725C00172673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7603E9A52746725C00172673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7603E9AA2746725C00172673 /* NumberguessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberguessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7603E9AE2746725D00172673 /* NumberguessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberguessTests.swift; sourceTree = "<group>"; };
-		7603E9B42746725D00172673 /* NumberguessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberguessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7603E9B82746725D00172673 /* NumberguessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberguessUITests.swift; sourceTree = "<group>"; };
-		7603E9BA2746725D00172673 /* NumberguessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberguessUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7603E9E027467D5D00172673 /* NumberGuess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NumberGuess.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7603E9E327467D5D00172673 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7603E9E527467D5D00172673 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7603E9E727467D5D00172673 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7603E9EC27467D5E00172673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7603E9EF27467D5E00172673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7603E9F127467D5E00172673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7603E9F627467D5E00172673 /* NumberGuessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberGuessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7603E9FA27467D5E00172673 /* NumberGuessTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGuessTests.swift; sourceTree = "<group>"; };
+		7603EA0027467D5E00172673 /* NumberGuessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumberGuessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7603EA0427467D5E00172673 /* NumberGuessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGuessUITests.swift; sourceTree = "<group>"; };
+		7603EA0627467D5E00172673 /* NumberGuessUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGuessUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7603EA1327467D9900172673 /* NumberGuessModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberGuessModel.swift; sourceTree = "<group>"; };
+		7603EA1627467DB300172673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "../../../../../Desktop/NumberGuesser_2 2/NumberGuesser_2/NumberGuesser_2/Base.lproj/Main.storyboard"; sourceTree = "<group>"; };
+		7603EA1827467DE800172673 /* normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = normal.png; path = "../../../../../Desktop/NumberGuesser_2 2/NumberGuesser_2/NumberGuesser_2UITests/normal.png"; sourceTree = "<group>"; };
+		7603EA1A27467DEC00172673 /* bad.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bad.jpeg; path = "../../../../../Desktop/NumberGuesser_2 2/NumberGuesser_2/NumberGuesser_2UITests/bad.jpeg"; sourceTree = "<group>"; };
+		7603EA1C27467DF900172673 /* sad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sad.png; path = "../../../../../Desktop/NumberGuesser_2 2/NumberGuesser_2/NumberGuesser_2/sad.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7603E9912746725B00172673 /* Frameworks */ = {
+		7603E9DD27467D5D00172673 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7603E9A72746725C00172673 /* Frameworks */ = {
+		7603E9F327467D5E00172673 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7603E9B12746725D00172673 /* Frameworks */ = {
+		7603E9FD27467D5E00172673 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,137 +84,141 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7603E98B2746725B00172673 = {
+		7603E9D727467D5D00172673 = {
 			isa = PBXGroup;
 			children = (
-				7603E9962746725B00172673 /* Numberguess */,
-				7603E9AD2746725D00172673 /* NumberguessTests */,
-				7603E9B72746725D00172673 /* NumberguessUITests */,
-				7603E9952746725B00172673 /* Products */,
+				7603EA1327467D9900172673 /* NumberGuessModel.swift */,
+				7603E9E227467D5D00172673 /* NumberGuess */,
+				7603E9F927467D5E00172673 /* NumberGuessTests */,
+				7603EA0327467D5E00172673 /* NumberGuessUITests */,
+				7603E9E127467D5D00172673 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7603E9952746725B00172673 /* Products */ = {
+		7603E9E127467D5D00172673 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7603E9942746725B00172673 /* Numberguess.app */,
-				7603E9AA2746725C00172673 /* NumberguessTests.xctest */,
-				7603E9B42746725D00172673 /* NumberguessUITests.xctest */,
+				7603E9E027467D5D00172673 /* NumberGuess.app */,
+				7603E9F627467D5E00172673 /* NumberGuessTests.xctest */,
+				7603EA0027467D5E00172673 /* NumberGuessUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7603E9962746725B00172673 /* Numberguess */ = {
+		7603E9E227467D5D00172673 /* NumberGuess */ = {
 			isa = PBXGroup;
 			children = (
-				7603E9972746725B00172673 /* AppDelegate.swift */,
-				7603E9992746725B00172673 /* SceneDelegate.swift */,
-				7603E99B2746725B00172673 /* ViewController.swift */,
-				7603E99D2746725B00172673 /* Main.storyboard */,
-				7603E9A02746725C00172673 /* Assets.xcassets */,
-				7603E9A22746725C00172673 /* LaunchScreen.storyboard */,
-				7603E9A52746725C00172673 /* Info.plist */,
+				7603EA1827467DE800172673 /* normal.png */,
+				7603EA1A27467DEC00172673 /* bad.jpeg */,
+				7603EA1C27467DF900172673 /* sad.png */,
+				7603E9E327467D5D00172673 /* AppDelegate.swift */,
+				7603E9E527467D5D00172673 /* SceneDelegate.swift */,
+				7603E9E727467D5D00172673 /* ViewController.swift */,
+				7603EA1527467DB300172673 /* Main.storyboard */,
+				7603E9EC27467D5E00172673 /* Assets.xcassets */,
+				7603E9EE27467D5E00172673 /* LaunchScreen.storyboard */,
+				7603E9F127467D5E00172673 /* Info.plist */,
 			);
-			path = Numberguess;
+			path = NumberGuess;
 			sourceTree = "<group>";
 		};
-		7603E9AD2746725D00172673 /* NumberguessTests */ = {
+		7603E9F927467D5E00172673 /* NumberGuessTests */ = {
 			isa = PBXGroup;
 			children = (
-				7603E9AE2746725D00172673 /* NumberguessTests.swift */,
+				7603E9FA27467D5E00172673 /* NumberGuessTests.swift */,
 			);
-			path = NumberguessTests;
+			path = NumberGuessTests;
 			sourceTree = "<group>";
 		};
-		7603E9B72746725D00172673 /* NumberguessUITests */ = {
+		7603EA0327467D5E00172673 /* NumberGuessUITests */ = {
 			isa = PBXGroup;
 			children = (
-				7603E9B82746725D00172673 /* NumberguessUITests.swift */,
-				7603E9BA2746725D00172673 /* NumberguessUITestsLaunchTests.swift */,
+				7603EA0427467D5E00172673 /* NumberGuessUITests.swift */,
+				7603EA0627467D5E00172673 /* NumberGuessUITestsLaunchTests.swift */,
 			);
-			path = NumberguessUITests;
+			path = NumberGuessUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7603E9932746725B00172673 /* Numberguess */ = {
+		7603E9DF27467D5D00172673 /* NumberGuess */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7603E9BE2746725D00172673 /* Build configuration list for PBXNativeTarget "Numberguess" */;
+			buildConfigurationList = 7603EA0A27467D5E00172673 /* Build configuration list for PBXNativeTarget "NumberGuess" */;
 			buildPhases = (
-				7603E9902746725B00172673 /* Sources */,
-				7603E9912746725B00172673 /* Frameworks */,
-				7603E9922746725B00172673 /* Resources */,
+				7603E9DC27467D5D00172673 /* Sources */,
+				7603E9DD27467D5D00172673 /* Frameworks */,
+				7603E9DE27467D5D00172673 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Numberguess;
-			productName = Numberguess;
-			productReference = 7603E9942746725B00172673 /* Numberguess.app */;
+			name = NumberGuess;
+			productName = NumberGuess;
+			productReference = 7603E9E027467D5D00172673 /* NumberGuess.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7603E9A92746725C00172673 /* NumberguessTests */ = {
+		7603E9F527467D5E00172673 /* NumberGuessTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7603E9C12746725D00172673 /* Build configuration list for PBXNativeTarget "NumberguessTests" */;
+			buildConfigurationList = 7603EA0D27467D5E00172673 /* Build configuration list for PBXNativeTarget "NumberGuessTests" */;
 			buildPhases = (
-				7603E9A62746725C00172673 /* Sources */,
-				7603E9A72746725C00172673 /* Frameworks */,
-				7603E9A82746725C00172673 /* Resources */,
+				7603E9F227467D5E00172673 /* Sources */,
+				7603E9F327467D5E00172673 /* Frameworks */,
+				7603E9F427467D5E00172673 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7603E9AC2746725D00172673 /* PBXTargetDependency */,
+				7603E9F827467D5E00172673 /* PBXTargetDependency */,
 			);
-			name = NumberguessTests;
-			productName = NumberguessTests;
-			productReference = 7603E9AA2746725C00172673 /* NumberguessTests.xctest */;
+			name = NumberGuessTests;
+			productName = NumberGuessTests;
+			productReference = 7603E9F627467D5E00172673 /* NumberGuessTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7603E9B32746725D00172673 /* NumberguessUITests */ = {
+		7603E9FF27467D5E00172673 /* NumberGuessUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7603E9C42746725D00172673 /* Build configuration list for PBXNativeTarget "NumberguessUITests" */;
+			buildConfigurationList = 7603EA1027467D5E00172673 /* Build configuration list for PBXNativeTarget "NumberGuessUITests" */;
 			buildPhases = (
-				7603E9B02746725D00172673 /* Sources */,
-				7603E9B12746725D00172673 /* Frameworks */,
-				7603E9B22746725D00172673 /* Resources */,
+				7603E9FC27467D5E00172673 /* Sources */,
+				7603E9FD27467D5E00172673 /* Frameworks */,
+				7603E9FE27467D5E00172673 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7603E9B62746725D00172673 /* PBXTargetDependency */,
+				7603EA0227467D5E00172673 /* PBXTargetDependency */,
 			);
-			name = NumberguessUITests;
-			productName = NumberguessUITests;
-			productReference = 7603E9B42746725D00172673 /* NumberguessUITests.xctest */;
+			name = NumberGuessUITests;
+			productName = NumberGuessUITests;
+			productReference = 7603EA0027467D5E00172673 /* NumberGuessUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7603E98C2746725B00172673 /* Project object */ = {
+		7603E9D827467D5D00172673 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					7603E9932746725B00172673 = {
+					7603E9DF27467D5D00172673 = {
 						CreatedOnToolsVersion = 13.1;
 					};
-					7603E9A92746725C00172673 = {
+					7603E9F527467D5E00172673 = {
 						CreatedOnToolsVersion = 13.1;
-						TestTargetID = 7603E9932746725B00172673;
+						TestTargetID = 7603E9DF27467D5D00172673;
 					};
-					7603E9B32746725D00172673 = {
+					7603E9FF27467D5E00172673 = {
 						CreatedOnToolsVersion = 13.1;
-						TestTargetID = 7603E9932746725B00172673;
+						TestTargetID = 7603E9DF27467D5D00172673;
 					};
 				};
 			};
-			buildConfigurationList = 7603E98F2746725B00172673 /* Build configuration list for PBXProject "Numberguess" */;
+			buildConfigurationList = 7603E9DB27467D5D00172673 /* Build configuration list for PBXProject "NumberGuess" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,37 +226,40 @@
 				en,
 				Base,
 			);
-			mainGroup = 7603E98B2746725B00172673;
-			productRefGroup = 7603E9952746725B00172673 /* Products */;
+			mainGroup = 7603E9D727467D5D00172673;
+			productRefGroup = 7603E9E127467D5D00172673 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7603E9932746725B00172673 /* Numberguess */,
-				7603E9A92746725C00172673 /* NumberguessTests */,
-				7603E9B32746725D00172673 /* NumberguessUITests */,
+				7603E9DF27467D5D00172673 /* NumberGuess */,
+				7603E9F527467D5E00172673 /* NumberGuessTests */,
+				7603E9FF27467D5E00172673 /* NumberGuessUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7603E9922746725B00172673 /* Resources */ = {
+		7603E9DE27467D5D00172673 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7603E9A42746725C00172673 /* LaunchScreen.storyboard in Resources */,
-				7603E9A12746725C00172673 /* Assets.xcassets in Resources */,
-				7603E99F2746725B00172673 /* Main.storyboard in Resources */,
+				7603EA1D27467DFA00172673 /* sad.png in Resources */,
+				7603EA1B27467DEC00172673 /* bad.jpeg in Resources */,
+				7603E9F027467D5E00172673 /* LaunchScreen.storyboard in Resources */,
+				7603E9ED27467D5E00172673 /* Assets.xcassets in Resources */,
+				7603EA1927467DE800172673 /* normal.png in Resources */,
+				7603EA1727467DB300172673 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7603E9A82746725C00172673 /* Resources */ = {
+		7603E9F427467D5E00172673 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7603E9B22746725D00172673 /* Resources */ = {
+		7603E9FE27467D5E00172673 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,69 +269,70 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7603E9902746725B00172673 /* Sources */ = {
+		7603E9DC27467D5D00172673 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7603E99C2746725B00172673 /* ViewController.swift in Sources */,
-				7603E9982746725B00172673 /* AppDelegate.swift in Sources */,
-				7603E99A2746725B00172673 /* SceneDelegate.swift in Sources */,
+				7603E9E827467D5D00172673 /* ViewController.swift in Sources */,
+				7603E9E427467D5D00172673 /* AppDelegate.swift in Sources */,
+				7603EA1427467D9900172673 /* NumberGuessModel.swift in Sources */,
+				7603E9E627467D5D00172673 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7603E9A62746725C00172673 /* Sources */ = {
+		7603E9F227467D5E00172673 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7603E9AF2746725D00172673 /* NumberguessTests.swift in Sources */,
+				7603E9FB27467D5E00172673 /* NumberGuessTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7603E9B02746725D00172673 /* Sources */ = {
+		7603E9FC27467D5E00172673 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7603E9B92746725D00172673 /* NumberguessUITests.swift in Sources */,
-				7603E9BB2746725D00172673 /* NumberguessUITestsLaunchTests.swift in Sources */,
+				7603EA0527467D5E00172673 /* NumberGuessUITests.swift in Sources */,
+				7603EA0727467D5E00172673 /* NumberGuessUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7603E9AC2746725D00172673 /* PBXTargetDependency */ = {
+		7603E9F827467D5E00172673 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7603E9932746725B00172673 /* Numberguess */;
-			targetProxy = 7603E9AB2746725D00172673 /* PBXContainerItemProxy */;
+			target = 7603E9DF27467D5D00172673 /* NumberGuess */;
+			targetProxy = 7603E9F727467D5E00172673 /* PBXContainerItemProxy */;
 		};
-		7603E9B62746725D00172673 /* PBXTargetDependency */ = {
+		7603EA0227467D5E00172673 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7603E9932746725B00172673 /* Numberguess */;
-			targetProxy = 7603E9B52746725D00172673 /* PBXContainerItemProxy */;
+			target = 7603E9DF27467D5D00172673 /* NumberGuess */;
+			targetProxy = 7603EA0127467D5E00172673 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7603E99D2746725B00172673 /* Main.storyboard */ = {
+		7603E9EE27467D5E00172673 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7603E99E2746725B00172673 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7603E9A22746725C00172673 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7603E9A32746725C00172673 /* Base */,
+				7603E9EF27467D5E00172673 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		7603EA1527467DB300172673 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7603EA1627467DB300172673 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7603E9BC2746725D00172673 /* Debug */ = {
+		7603EA0827467D5E00172673 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -377,7 +393,7 @@
 			};
 			name = Debug;
 		};
-		7603E9BD2746725D00172673 /* Release */ = {
+		7603EA0927467D5E00172673 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -432,7 +448,7 @@
 			};
 			name = Release;
 		};
-		7603E9BF2746725D00172673 /* Debug */ = {
+		7603EA0B27467D5E00172673 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -440,7 +456,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Numberguess/Info.plist;
+				INFOPLIST_FILE = NumberGuess/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "EXTREME_ NUMBERGUESS";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -451,7 +468,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "at.ac.htl-perg.Numberguess";
+				PRODUCT_BUNDLE_IDENTIFIER = "at.ac.htl-perg.NumberGuess";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -459,7 +476,7 @@
 			};
 			name = Debug;
 		};
-		7603E9C02746725D00172673 /* Release */ = {
+		7603EA0C27467D5E00172673 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -467,7 +484,8 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Numberguess/Info.plist;
+				INFOPLIST_FILE = NumberGuess/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "EXTREME_ NUMBERGUESS";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -478,7 +496,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "at.ac.htl-perg.Numberguess";
+				PRODUCT_BUNDLE_IDENTIFIER = "at.ac.htl-perg.NumberGuess";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -486,7 +504,7 @@
 			};
 			name = Release;
 		};
-		7603E9C22746725D00172673 /* Debug */ = {
+		7603EA0E27467D5E00172673 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -501,16 +519,16 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "at.ac.htl-perg.NumberguessTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "at.ac.htl-perg.NumberGuessTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Numberguess.app/Numberguess";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NumberGuess.app/NumberGuess";
 			};
 			name = Debug;
 		};
-		7603E9C32746725D00172673 /* Release */ = {
+		7603EA0F27467D5E00172673 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -525,16 +543,16 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "at.ac.htl-perg.NumberguessTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "at.ac.htl-perg.NumberGuessTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Numberguess.app/Numberguess";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NumberGuess.app/NumberGuess";
 			};
 			name = Release;
 		};
-		7603E9C52746725D00172673 /* Debug */ = {
+		7603EA1127467D5E00172673 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -547,16 +565,16 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "at.ac.htl-perg.NumberguessUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "at.ac.htl-perg.NumberGuessUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Numberguess;
+				TEST_TARGET_NAME = NumberGuess;
 			};
 			name = Debug;
 		};
-		7603E9C62746725D00172673 /* Release */ = {
+		7603EA1227467D5E00172673 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -569,55 +587,55 @@
 					"@loader_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "at.ac.htl-perg.NumberguessUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "at.ac.htl-perg.NumberGuessUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Numberguess;
+				TEST_TARGET_NAME = NumberGuess;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7603E98F2746725B00172673 /* Build configuration list for PBXProject "Numberguess" */ = {
+		7603E9DB27467D5D00172673 /* Build configuration list for PBXProject "NumberGuess" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7603E9BC2746725D00172673 /* Debug */,
-				7603E9BD2746725D00172673 /* Release */,
+				7603EA0827467D5E00172673 /* Debug */,
+				7603EA0927467D5E00172673 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7603E9BE2746725D00172673 /* Build configuration list for PBXNativeTarget "Numberguess" */ = {
+		7603EA0A27467D5E00172673 /* Build configuration list for PBXNativeTarget "NumberGuess" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7603E9BF2746725D00172673 /* Debug */,
-				7603E9C02746725D00172673 /* Release */,
+				7603EA0B27467D5E00172673 /* Debug */,
+				7603EA0C27467D5E00172673 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7603E9C12746725D00172673 /* Build configuration list for PBXNativeTarget "NumberguessTests" */ = {
+		7603EA0D27467D5E00172673 /* Build configuration list for PBXNativeTarget "NumberGuessTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7603E9C22746725D00172673 /* Debug */,
-				7603E9C32746725D00172673 /* Release */,
+				7603EA0E27467D5E00172673 /* Debug */,
+				7603EA0F27467D5E00172673 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7603E9C42746725D00172673 /* Build configuration list for PBXNativeTarget "NumberguessUITests" */ = {
+		7603EA1027467D5E00172673 /* Build configuration list for PBXNativeTarget "NumberGuessUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7603E9C52746725D00172673 /* Debug */,
-				7603E9C62746725D00172673 /* Release */,
+				7603EA1127467D5E00172673 /* Debug */,
+				7603EA1227467D5E00172673 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7603E98C2746725B00172673 /* Project object */;
+	rootObject = 7603E9D827467D5D00172673 /* Project object */;
 }

@@ -1,13 +1,13 @@
 //
-//  NumberguessUITests.swift
-//  NumberguessUITests
+//  NumberGuessUITests.swift
+//  NumberGuessUITests
 //
 //  Created by Elias Leutgebweger on 18.11.21.
 //
 
 import XCTest
 
-class NumberguessUITests: XCTestCase {
+class NumberGuessUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -1,13 +1,13 @@
 //
-//  NumberguessUITestsLaunchTests.swift
-//  NumberguessUITests
+//  NumberGuessUITestsLaunchTests.swift
+//  NumberGuessUITests
 //
 //  Created by Elias Leutgebweger on 18.11.21.
 //
 
 import XCTest
 
-class NumberguessUITestsLaunchTests: XCTestCase {
+class NumberGuessUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

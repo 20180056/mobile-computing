@@ -1,6 +1,6 @@
 //
 //  SceneDelegate.swift
-//  Numberguess
+//  NumberGuess
 //
 //  Created by Elias Leutgebweger on 18.11.21.
 //
